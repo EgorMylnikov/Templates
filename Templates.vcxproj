@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Print.cpp" />
+    <ClCompile Include="Shift.cpp" />
+    <ClCompile Include="Sort.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Statistics.cpp" />
+    <ClCompile Include="Sum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constans1.h" />
+    <ClInclude Include="Print.h" />
+    <ClInclude Include="Shift.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="Statistics.h" />
+    <ClInclude Include="stdafx1.h" />
+    <ClInclude Include="Sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
